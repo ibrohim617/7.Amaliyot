@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 0;
+}
+
+.nav__border {
+    border-bottom: 2px solid;
+    border-color: #DEDBDB;
+}
+
+
+.form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #DEDBDB;
+    width: 650px;
+    margin: 46px auto;
+    padding: 66px 53px 37px 64px;
+    border-radius: 50px;
+
+}
+
+.form__title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__subtitle{
+    display: flex;
+    align-items: center;
+}
+.form__subtitle h3{
+font-weight: 700;
+font-size: 24px;
+color: #F0400F ;
+width: 218px;
+}
+
+
+h1{
+font-weight: 700;
+font-size: 48px;
+color: #0E0D5D;
+margin-top: 131px;
+margin-bottom: 79px;
+}
+
+.parent__student{
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    height: 70px;
+    align-items: center;
+    padding: 10px;
+    gap: 82px;
+}
+
+.student{
+    width: 255px;
+    height: 54px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent{
+    color: #757575;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+    row-gap: 39px;
+}
+.inputs input {
+    width: 533px;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 51px;
+    border: 1px solid #75757530;
+font-weight: 500;
+font-size: 24px;
+
+}
+
+.qrcode{
+font-weight: 500;
+font-size: 24px;
+opacity: 64%;
+text-align: center;
+margin-top: 18px;
+margin-bottom: 31px;
+
+}
+.buttons{
+ 
+    display: flex;
+    justify-content: end;
+}
+
+.buttons button{
+    width: 202px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #F69E86;
+    height: 67px;
+    color: white;
+    border: none;
+    outline: none;
+}
